@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollis Construction | Building What Matters</title>
+
+    <!-- Google Fonts: Poppins & Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons (for icons) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- AOS (Animate on Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Defer JS for faster loading -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <div class="nav__logo-icon">H</div>
+                Hollis
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">The Hollis Way</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#careers" class="nav__link">Careers</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link nav__link-button">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close"><i class='bx bx-x'></i></div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- ==================== HERO ==================== -->
+        <section class="hero" id="home">
+            <div class="hero__video-container">
+                 <!-- Placeholder video -->
+                <video src="https://assets.mixkit.co/videos/preview/mixkit-drone-flying-over-a-construction-site-4235-large.mp4" autoplay loop muted playsinline class="hero__video"></video>
+            </div>
+            <div class="hero__overlay"></div>
+            <div class="hero__content container" data-aos="fade-up">
+                <h1 class="hero__title">Building What Matters. Together.</h1>
+                <p class="hero__subtitle">Premier construction management and general contracting for the Pacific Northwest's most vital sectors.</p>
+                <a href="#projects" class="button button--primary">Explore Our Work <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </section>
+
+        <!-- ==================== SECTORS ==================== -->
+        <section class="section sectors" id="sectors">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Expertise in Critical Sectors</h2>
+                <div class="sectors__grid">
+                    <div class="sector-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://images.unsplash.com/photo-1581092580497-c3d25e76a31f?q=80&w=2070&auto=format&fit=crop" alt="Healthcare Construction">
+                        <div class="sector-card__overlay"></div>
+                        <h3>Healthcare</h3>
+                    </div>
+                    <div class="sector-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070&auto=format&fit=crop" alt="Education Construction">
+                        <div class="sector-card__overlay"></div>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="sector-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop" alt="Corporate Construction">
+                        <div class="sector-card__overlay"></div>
+                        <h3>Corporate</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== THE HOLLIS DIFFERENCE (USP) ==================== -->
+        <section class="section difference blueprint-bg" id="about">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">The Hollis Difference</h2>
+                <div class="difference__grid">
+                    <div class="usp-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class='bx bx-vector'></i>
+                        <h4>Design-Build Integration</h4>
+                        <p>A seamless, collaborative process from concept to completion, ensuring vision alignment and efficiency.</p>
+                    </div>
+                    <div class="usp-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class='bx bx-hard-hat'></i>
+                        <h4>Self-Perform Excellence</h4>
+                        <p>Mastering quality and schedule with our own skilled teams for critical trades, delivering superior results.</p>
+                    </div>
+                    <div class="usp-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class='bx bx-group'></i>
+                        <h4>Unwavering Partnership</h4>
+                        <p>We build lasting relationships based on trust, transparency, and a shared commitment to success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== FEATURED PROJECTS ==================== -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Landmarks We've Built</h2>
+                <div class="projects__grid">
+                    <a href="#" class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://images.unsplash.com/photo-1511920173447-909c3d4452a8?q=80&w=1974&auto=format&fit=crop" alt="Project 1">
+                        <div class="project-card__info">
+                            <h3>St. Mary's Medical Pavilion</h3>
+                            <span>Healthcare</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1607503162756-3f1d35593a8d?q=80&w=2070&auto=format&fit=crop" alt="Project 2">
+                        <div class="project-card__info">
+                            <h3>Northwood Tech Campus</h3>
+                            <span>Education</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://images.unsplash.com/photo-1600880292210-8593842364c1?q=80&w=1972&auto=format&fit=crop" alt="Project 3">
+                        <div class="project-card__info">
+                            <h3>Cascade Corporate HQ</h3>
+                            <span>Corporate</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="section__cta" data-aos="fade-up">
+                    <a href="#" class="button button--secondary">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== TESTIMONIAL ==================== -->
+        <section class="section testimonial">
+             <div class="testimonial__arc"></div>
+            <div class="container testimonial__content" data-aos="fade-up">
+                <blockquote>
+                    "Hollis Construction isn't just a vendor; they are a true partner. Their attention to detail and commitment to our vision was evident every single day."
+                </blockquote>
+                <cite>
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop" alt="Client photo" class="testimonial__photo">
+                    <div>
+                        <strong>Johnathan Chen</strong>
+                        <span>Director of Facilities, St. Mary's Medical</span>
+                    </div>
+                </cite>
+            </div>
+        </section>
+
+        <!-- ==================== FINAL CTA ==================== -->
+        <section class="section cta" id="contact">
+            <div class="container cta__content" data-aos="fade-up">
+                <h2 class="cta__title">Let's Build Your Vision.</h2>
+                <p>Start the conversation today and see how our partnership can bring your project to life.</p>
+                <a href="#" class="button button--primary">Get In Touch</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__about">
+                <a href="#" class="footer__logo">
+                    <div class="nav__logo-icon">H</div>
+                    Hollis Construction
+                </a>
+                <p>Building what matters on a foundation of partnership, integrity, and quality since 1985.</p>
+            </div>
+            <div class="footer__links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">The Hollis Way</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h3>Contact Us</h3>
+                <p>123 Construction Way<br>Portland, OR 97204</p>
+                <p>
+                    <a href="tel:5035550101">(503) 555-0101</a><br>
+                    <a href="mailto:inquiries@hollisconstruction.com">inquiries@hollisconstruction.com</a>
+                </p>
+            </div>
+            <div class="footer__social">
+                <h3>Connect</h3>
+                <div class="footer__social-icons">
+                    <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2024 Hollis Construction. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- AOS (Animate on Scroll) Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
+        });
+    </script>
+</body>
+</html>
